@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KitchenVerse | The Zero-G Experience</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;700&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <!-- Utilizing FontAwesome for icons/placeholders -->
+    <!-- Note: If the kit doesn't work, we'll use SVG placeholders -->
+</head>
+
+<body>
+    <div class="cinematic-overlay"></div>
+    <div class="ambient-light"></div>
+
+    <nav class="glass-nav">
+        <div class="logo">KitchenVerse</div>
+        <div class="links">
+            <a href="#menu">Collection</a>
+            <a href="#experience">Experience</a>
+            <a href="#design">Design</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </nav>
+
+    <main class="hero-section">
+        <div class="scrolling-bg">
+            <div class="scroller-track">
+                <div class="scroll-img"
+                    style="background-image: url('https://images.unsplash.com/photo-1534483509719-3feaee7c30da?auto=format&fit=crop&w=1200&q=80');">
+                </div>
+                <div class="scroll-img"
+                    style="background-image: url('https://images.unsplash.com/photo-1546964124-0cce460f38ef?auto=format&fit=crop&w=1200&q=80');">
+                </div>
+                <div class="scroll-img"
+                    style="background-image: url('https://images.unsplash.com/photo-1563729784474-d77dbb933a9e?auto=format&fit=crop&w=1200&q=80');">
+                </div>
+                <div class="scroll-img"
+                    style="background-image: url('https://images.unsplash.com/photo-1476124369491-e7addf5db371?auto=format&fit=crop&w=1200&q=80');">
+                </div>
+                <!-- Duplicate for seamless scroll -->
+                <div class="scroll-img"
+                    style="background-image: url('https://images.unsplash.com/photo-1534483509719-3feaee7c30da?auto=format&fit=crop&w=1200&q=80');">
+                </div>
+            </div>
+        </div>
+        <div class="content">
+            <h1 class="fade-in-up">Nandini's Kitchen</h1>
+            <p class="fade-in-up delay-1">Culinary excellence suspended in time. Experience the future of modern luxury.
+            </p>
+            <button class="cta-btn fade-in-up delay-2"
+                onclick="document.getElementById('menu').scrollIntoView({behavior: 'smooth'})">Explore the Void</button>
+        </div>
+
+        <div class="floating-elements-container">
+            <!-- Representing utensils and fruits with visual elements -->
+            <div class="float-item utensil-1">🍴</div>
+            <div class="float-item utensil-2">🔪</div>
+            <div class="float-item fruit-1">🍋</div>
+            <div class="float-item cookware-1">🍳</div>
+            <div class="float-item leaf-1">🍃</div>
+            <div class="float-item leaf-2">🌿</div>
+        </div>
+    </main>
+
+    <section id="experience" class="feature-section">
+        <div class="feature-content">
+            <h2 class="section-title">The Zero-G Experience</h2>
+            <div class="feature-body">
+                <div class="feature-text">
+                    <h3>Dining Beyond Boundaries</h3>
+                    <p>At KitchenVerse, we've revolutionized the sensory journey of dining. In our gravity-neutral
+                        chambers, flavors are enhanced by the absence of weight, allowing every delicate note of our
+                        molecular masterpieces to dance on your palate.</p>
+                    <ul class="feature-list">
+                        <li><i class="fas fa-check-circle"></i> 360° Immersive Projections</li>
+                        <li><i class="fas fa-check-circle"></i> Adaptive Soundscapes</li>
+                        <li><i class="fas fa-check-circle"></i> Kinetic Floating Plating</li>
+                    </ul>
+                </div>
+                <div class="feature-visual"
+                    style="background-image: url('https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=800&q=80');">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="design" class="feature-section alt-bg">
+        <div class="feature-content">
+            <h2 class="section-title">Futuristic Aesthetics</h2>
+            <div class="feature-body reverse">
+                <div class="feature-text">
+                    <h3>Sleek Architecture</h3>
+                    <p>Designed with 8K precision, our kitchens feature monoblock obsidian countertops and smart
+                        appliances that respond to your presence. The intersection of luxury and technology creates a
+                        workspace that is both a laboratory and an art gallery.</p>
+                    <ul class="feature-list">
+                        <li><i class="fas fa-check-circle"></i> Seamless Carbon Surfaces</li>
+                        <li><i class="fas fa-check-circle"></i> Interactive Holographic Interfaces</li>
+                        <li><i class="fas fa-check-circle"></i> Neural-Link Cooking Assist</li>
+                    </ul>
+                </div>
+                <div class="feature-visual"
+                    style="background-image: url('https://images.unsplash.com/photo-1556910103-1c02745aae4d?auto=format&fit=crop&w=800&q=80');">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="menu" class="menu-section">
+        <h2 class="section-title">Our Stellar Selection</h2>
+        <div class="menu-grid">
+            <div class="menu-card">
+                <div class="card-image"
+                    style="background-image: url('https://images.unsplash.com/photo-1476124369491-e7addf5db371?auto=format&fit=crop&w=600&q=80');">
+                </div>
+                <div class="card-content">
+                    <h3>Vaikuntha Truffle Pulao</h3>
+                    <p class="specialty">Aromatic long-grain basmati infused with rare Himalayan truffles.</p>
+                    <span class="price">₹1,250</span>
+                </div>
+            </div>
+            <div class="menu-card">
+                <div class="card-image"
+                    style="background-image: url('https://images.unsplash.com/photo-1534483509719-3feaee7c30da?auto=format&fit=crop&w=600&q=80');">
+                </div>
+                <div class="card-content">
+                    <h3>Keralite Cloud Prawns</h3>
+                    <p class="specialty">Coastal queen prawns tossed in a weightless coconut & curry leaf foam.</p>
+                    <span class="price">₹1,800</span>
+                </div>
+            </div>
+            <div class="menu-card">
+                <div class="card-image"
+                    style="background-image: url('https://images.unsplash.com/photo-1546964124-0cce460f38ef?auto=format&fit=crop&w=600&q=80');">
+                </div>
+                <div class="card-content">
+                    <h3>Agni Galauti Kebabs</h3>
+                    <p class="specialty">Smoked melt-in-mouth lamb kebabs infused with 24 proprietary spices.</p>
+                    <span class="price">₹1,450</span>
+                </div>
+            </div>
+            <div class="menu-card">
+                <div class="card-image"
+                    style="background-image: url('https://images.unsplash.com/photo-1563729784474-d77dbb933a9e?auto=format&fit=crop&w=600&q=80');">
+                </div>
+                <div class="card-content">
+                    <h3>Kehkashan Shahi Tukda</h3>
+                    <p class="specialty">Saffron-soaked artisanal delicacy with a galaxy of wild berries.</p>
+                    <span class="price">₹750</span>
+                </div>
+            </div>
+            <div class="menu-card">
+                <div class="card-image"
+                    style="background-image: url('https://images.unsplash.com/photo-1533777857889-4be7c70b33f7?auto=format&fit=crop&w=600&q=80');">
+                </div>
+                <div class="card-content">
+                    <h3>Ratnagiri Zaffrani Lobster</h3>
+                    <p class="specialty">Premium coastal lobster tail glazed in a rich golden saffron reduction.</p>
+                    <span class="price">₹2,200</span>
+                </div>
+            </div>
+            <div class="menu-card">
+                <div class="card-image"
+                    style="background-image: url('https://images.unsplash.com/photo-1551024709-8f23befc6f87?auto=format&fit=crop&w=600&q=80');">
+                </div>
+                <div class="card-content">
+                    <h3>Amrit Rasayana Sphere</h3>
+                    <p class="specialty">Molecular Mishti Doi sphere suspended in a rose-scented mist.</p>
+                    <span class="price">₹850</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <div class="contact-container">
+            <h2 class="section-title">Get in Touch</h2>
+            <div class="contact-grid">
+                <div class="contact-info-card">
+                    <h3>Contact Information</h3>
+                    <p class="contact-desc">Ready to experience the future of dining? Reach out to us for private
+                        bookings and culinary consultations.</p>
+
+                    <div class="info-item">
+                        <div class="info-icon"><i class="fas fa-user"></i></div>
+                        <div class="info-text">
+                            <label>Proprietor</label>
+                            <span>Purama Nandini Lakshmi</span>
+                        </div>
+                    </div>
+
+                    <div class="info-item">
+                        <div class="info-icon"><i class="fas fa-phone-alt"></i></div>
+                        <div class="info-text">
+                            <label>Phone</label>
+                            <span>+91 89898 98XXX</span>
+                        </div>
+                    </div>
+
+                    <div class="info-item">
+                        <div class="info-icon"><i class="fas fa-envelope"></i></div>
+                        <div class="info-text">
+                            <label>Email</label>
+                            <span>hello@nandiniskitchen.com</span>
+                        </div>
+                    </div>
+
+                    <div class="info-item">
+                        <div class="info-icon"><i class="fas fa-map-marker-alt"></i></div>
+                        <div class="info-text">
+                            <label>Location</label>
+                            <span>Guntur, Andhra Pradesh, India</span>
+                        </div>
+                    </div>
+
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+
+                <div class="contact-form-card">
+                    <form action="#">
+                        <div class="form-group">
+                            <input type="text" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <select required>
+                                <option value="" disabled selected>Select Inquiry Type</option>
+                                <option value="private">Private Dining</option>
+                                <option value="event">Corporate Event</option>
+                                <option value="catering">Luxury Catering</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Tell us about your event..." rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="mini-footer">
+        <p>&copy; 2026 Nandini's Kitchen | KitchenVerse. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
