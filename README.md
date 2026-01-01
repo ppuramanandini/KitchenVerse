@@ -1,7 +1,7 @@
 # KitchenVerse
 
 **KitchenVerse** is a futuristic culinary website that brings
- Explore the Zero-G dining concept, immersive visuals, floating plating, and modern luxury kitchen design—all in one interactive platform.
+ Explore the Zero-G dining concept, immersive visuals, floating plating, and modern luxury kitchen design all in one interactive platform.
 
 ---
 ## 🌐 Live Demo
@@ -36,29 +36,29 @@ Check out the live website here:
 ## 🛠️ Tools & Technologies Used
 
 **Frontend Development**  
-- **HTML5** – Structure of the website  
-- **CSS3** – Styling, layout, and responsive design  
-- **JavaScript (Vanilla JS)** – Interactive elements and animations  
+- **HTML5** - Structure of the website  
+- **CSS3** - Styling, layout, and responsive design  
+- **JavaScript (Vanilla JS)** - Interactive elements and animations  
 
 **Design & Prototyping**  
-- **Figma / Adobe XD** – UI/UX design (optional)  
-- **Canva / Photoshop** – Image editing and graphics  
-- **Unsplash / Pexels** – Stock images for backgrounds & visuals  
+- **Figma / Adobe XD** - UI/UX design (optional)  
+- **Canva / Photoshop** - Image editing and graphics  
+- **Unsplash / Pexels** - Stock images for backgrounds & visuals  
 
 **Animations & Effects**  
-- **CSS Animations & Transitions** – Floating objects, hover effects  
-- **GSAP / Anime.js** – Advanced animations (optional)  
-- **Three.js / WebGL** – 3D floating food or immersive kitchen visuals (optional)  
+- **CSS Animations & Transitions** - Floating objects, hover effects  
+- **GSAP / Anime.js** - Advanced animations (optional)  
+- **Three.js / WebGL** - 3D floating food or immersive kitchen visuals (optional)  
 
 **Version Control & Hosting**  
-- **Git** – Version control  
-- **GitHub** – Repository hosting  
-- **GitHub Pages** – Free live deployment  
+- **Git** - Version control  
+- **GitHub** - Repository hosting  
+- **GitHub Pages** - Free live deployment  
 
 **Other Tools**  
-- **VS Code / Sublime Text / Atom**   – Code editor  
-- **Chrome DevTools**                 – Debugging & testing  
-- **Lighthouse / PageSpeed Insights** – Performance and SEO testing  
+- **VS Code**   - Code editor  
+- **Chrome DevTools**                 - Debugging & testing  
+- **Lighthouse / PageSpeed Insights** - Performance and SEO testing  
 
 ---
 
